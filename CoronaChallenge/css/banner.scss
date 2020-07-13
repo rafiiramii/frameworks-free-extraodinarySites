@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    // border: 2px solid red;
+}
+
+body {
+    .banner {
+        // background-image: url("../images/banner1.jpeg");
+        // background: rgb(2, 0, 36);
+        background-image: radial-gradient(circle, rgba(2, 0, 36, 0.014465161064425747) 12%, rgba(30, 32, 30, 0.671) 84%), url("../images/banner1.jpeg");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 5px center;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0 auto;
+        // margin-left: .1rem;
+        // margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 4rem;
+        // padding-bottom: 4rem;
+
+        .location {
+            color: white;
+            // border: 2px solid red;
+            width: fit-content;
+            height: fit-content;
+            text-align: center;
+            margin: auto 0;
+            padding: 0;
+            position: relative;
+
+            a:hover {
+                img {
+                    width: unset;
+                    padding-right: unset;
+                }
+            }
+
+            img {
+                height: 18px;
+                transition: unset;
+            }
+
+            h6 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                font-size: 10.7px;
+                letter-spacing: .1rem;
+                color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+
+            }
+        }
+
+        .location ::after {
+            content: "";
+            width: 1px;
+            height: 100vh;
+            top: 0;
+            margin-top: -21.9rem;
+            bottom: 0;
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.089);
+            left: 7rem;
+            position: absolute;
+            // margin-left: 13rem;
+        }
+
+        .welcomeText {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            margin: 0 auto;
+            padding: 0;
+            justify-content: space-between;
+            padding: 1rem 8rem 0 0rem;
+
+            .topText {
+                position: relative;
+
+
+                h2 {
+                    font-family: 'Barlow Condensed', sans-serif;
+                    font-weight: 200;
+                    letter-spacing: -.2rem;
+                    // margin-bottom: -1.2rem;
+                    margin: 0;
+                    padding: 0;
+
+                    // line-height: 1rem;
+                    word-spacing: .2rem;
+                    font-size: 3rem;
+                }
+
+                h4 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: .9999rem;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                p {
+                    position: relative;
+                    font-size: .56rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: .56rem;
+                }
+
+                p::before {
+                    content: "";
+                    width: 64px;
+                    height: 1.3px;
+                    margin-top: -.4rem;
+                    display: inline-block;
+                    background-color: rgba(255, 255, 255, 0.637);
+                    // left: 37rem;
+                    position: absolute;
+                }
+
+            }
+
+            .topText::after {
+                content: "";
+                width: 1.3px;
+                height: 80vh;
+                top: 10px;
+                margin-top: -1.9rem;
+                bottom: 0;
+                display: block;
+                background-color: rgba(255, 255, 255, 0.199);
+                left: 22.73rem;
+                position: absolute;
+            }
+
+            .middleText {
+                // padding-top: 6rem;
+                margin-bottom: -10rem;
+
+                h1 {
+                    font-size: 6.3rem;
+                    line-height: 6.3rem;
+                }
+            }
+
+            .scrollBtn {
+                position: relative;
+                margin: 0 auto;
+                padding: 4.5rem 0rem;
+                width: 170px;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                background: #df7f62;
+
+                a {
+
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: lighter;
+                    font-size: 10px;
+                    letter-spacing: .1rem;
+                    color: #f2f2f2;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}

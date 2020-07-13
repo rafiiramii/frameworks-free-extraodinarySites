@@ -1,0 +1,112 @@
+.leftNav {
+    position: relative;
+}
+
+.leftNav::before {
+    content: "";
+    width: 1px;
+    height: 100vh;
+    top: 0;
+    margin-top: -.55rem;
+    bottom: 0;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.123);
+    right: 11rem;
+    position: absolute;
+}
+
+.joinBtn {
+    position: fixed;
+    margin: 0 auto;
+    padding: 2.5rem 0rem;
+    width: 100px;
+    border-color: tomato;
+    text-align: center;
+    z-index: 20000000;
+}
+
+.joinBtn img {
+    position: absolute;
+    right: 120px;
+    width: 120px;
+    height: 120px;
+    top: 30px;
+}
+
+.joinBtn a {
+    right: 131px;
+    top: 40px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: .1rem;
+    color: #f2f2f2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar {
+    z-index: 400000;
+    margin: auto 0;
+    right: 0;
+    top: 17rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.navbar a {
+    position: relative;
+    color: rgb(36, 29, 29);
+    text-decoration: none;
+    height: 100%;
+    transition: all .3s linear;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a img {
+    position: relative;
+    height: 28px;
+    width: 10px;
+    font-weight: 100;
+    right: 30px;
+    float: right;
+    fill: tomato;
+    padding: 0;
+    margin: 0;
+    margin-top: -.6rem;
+    transition: width .2s, padding-right .5s;
+}
+
+.navbar a span {
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: none;
+    font-size: 10px;
+    margin-right: .2rem;
+    transition: margin-right .2s ease;
+    right: 3.2rem;
+}
+
+#active {
+    display: unset;
+}
+
+a:hover {
+    z-index: 1;
+    width: 100%;
+}
+
+a:hover span {
+    display: unset;
+    margin-right: .5rem;
+}
+
+a:hover img {
+    width: 25px;
+    /* padding-right: .5rem; */
+}

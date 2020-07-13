@@ -1,0 +1,101 @@
+#about {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 4rem;
+}
+
+#about .bgText {
+  position: absolute;
+  z-index: -2;
+  margin: 0 auto;
+}
+
+#about .bgText h1 {
+  margin: 0;
+  font-size: 17.3rem;
+  margin-left: 5rem;
+  color: rgba(92, 122, 92, 0.068);
+}
+
+#about .topText {
+  position: relative;
+  margin-top: -13rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10000;
+  width: 100%;
+  top: 8rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#about .topText .aboutText {
+  width: 30%;
+  margin-left: 12rem;
+  color: rgba(44, 65, 44, 0.979);
+}
+
+#about .topText .aboutText h5 {
+  margin-top: 2rem;
+  margin-left: .6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 10.9px;
+  letter-spacing: .04rem;
+}
+
+#about .topText .aboutText h5::before {
+  content: "";
+  width: 314px;
+  height: 2px;
+  margin-top: .97rem;
+  display: inline-block;
+  background-color: rgba(175, 162, 162, 0.308);
+  position: absolute;
+}
+
+#about .topText .aboutText h2 {
+  font-family: 'Caladea', serif;
+  font-size: 3rem;
+  margin-top: 4rem;
+  line-height: 3.1rem;
+}
+
+#about .topText .aboutText h2::before {
+  content: "";
+  width: 197px;
+  height: 27px;
+  margin-top: .97rem;
+  margin-left: 8.4rem;
+  display: inline-block;
+  position: absolute;
+  background-color: #f0d987;
+  z-index: -33;
+}
+
+#about .topText .aboutText p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#about .topText .aboutImages {
+  margin-top: -.5rem;
+  margin-right: 11rem;
+  z-index: 200;
+  grid-gap: 9px;
+  width: 36.4%;
+}
+
+#about .topText .aboutImages img {
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=about.css.map */

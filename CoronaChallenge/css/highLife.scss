@@ -1,0 +1,131 @@
+#highLife {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    .bgText {
+        width: 100%;
+        position: absolute;
+        z-index: -2;
+        margin: 0 auto;
+
+        h1 {
+            margin: 0;
+            font-size: 16.5rem;
+            margin-left: 6.1rem;
+            color: rgba(92, 122, 92, 0.068);
+        }
+    }
+
+    .topText {
+        position: relative;
+        margin-top: -13rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 10000;
+        width: 100%;
+        top: 8rem;
+        margin: 0 auto;
+        padding: 0;
+
+        .highLifeText {
+            width: 28%;
+
+            margin-left: 11.4rem;
+
+            color: rgba(44, 65, 44, 0.979);
+
+
+
+
+            h2 {
+                font-family: 'Caladea', serif;
+                font-size: 3.5rem;
+                font-weight: bolder;
+                margin-top: -2rem;
+                line-height: 4rem;
+
+            }
+
+            h2::before {
+                content: "";
+                width: 160px;
+                height: 35px;
+                margin-top: 5.2rem;
+                margin-left: -.1rem;
+                display: inline-block;
+
+                position: absolute;
+                background-color: #df7f62;
+                z-index: -33;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14.8px;
+                line-height: 1.8rem;
+                letter-spacing: .05rem;
+            }
+        }
+
+        .highLifeImages {
+            margin-top: .7rem;
+            margin-right: 11rem;
+            grid-gap: 9px;
+            width: 36.4%;
+
+            .scrollBtn {
+                position: absolute;
+                z-index: 6000000000;
+                margin: 0 auto;
+                margin-left: -7.17rem;
+                margin-top: 18rem;
+                padding: 0;
+                width: 230px;
+                height: 230px;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                background: #f0d987;
+                text-align: center;
+
+
+
+                h2 {
+                    color: rgba(44, 65, 44, 0.979);
+                    font-size: 3.5rem;
+                    font-weight: bolder;
+                    margin-bottom: -.1rem;
+                }
+
+                a {
+
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder;
+                    font-size: 11px;
+                    letter-spacing: .1rem;
+                    color: rgb(44, 65, 44);
+                    text-decoration: none;
+                }
+            }
+
+            .scrollBtn::after {
+                content: "";
+                width: 12px;
+                height: 147px;
+                top: 12rem;
+                position: absolute;
+                background-color: #f0d987;
+            }
+
+            img {
+                position: relative;
+                height: 100%;
+                width: 100%;
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,128 @@
+#highLife {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#highLife .bgText {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  margin: 0 auto;
+}
+
+#highLife .bgText h1 {
+  margin: 0;
+  font-size: 16.5rem;
+  margin-left: 6.1rem;
+  color: rgba(92, 122, 92, 0.068);
+}
+
+#highLife .topText {
+  position: relative;
+  margin-top: -13rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10000;
+  width: 100%;
+  top: 8rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#highLife .topText .highLifeText {
+  width: 28%;
+  margin-left: 11.4rem;
+  color: rgba(44, 65, 44, 0.979);
+}
+
+#highLife .topText .highLifeText h2 {
+  font-family: 'Caladea', serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-top: -2rem;
+  line-height: 4rem;
+}
+
+#highLife .topText .highLifeText h2::before {
+  content: "";
+  width: 160px;
+  height: 35px;
+  margin-top: 5.2rem;
+  margin-left: -.1rem;
+  display: inline-block;
+  position: absolute;
+  background-color: #df7f62;
+  z-index: -33;
+}
+
+#highLife .topText .highLifeText p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.8px;
+  line-height: 1.8rem;
+  letter-spacing: .05rem;
+}
+
+#highLife .topText .highLifeImages {
+  margin-top: .7rem;
+  margin-right: 11rem;
+  grid-gap: 9px;
+  width: 36.4%;
+}
+
+#highLife .topText .highLifeImages .scrollBtn {
+  position: absolute;
+  z-index: 6000000000;
+  margin: 0 auto;
+  margin-left: -7.17rem;
+  margin-top: 18rem;
+  padding: 0;
+  width: 230px;
+  height: 230px;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: #f0d987;
+  text-align: center;
+}
+
+#highLife .topText .highLifeImages .scrollBtn h2 {
+  color: rgba(44, 65, 44, 0.979);
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: -.1rem;
+}
+
+#highLife .topText .highLifeImages .scrollBtn a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 11px;
+  letter-spacing: .1rem;
+  color: #2c412c;
+  text-decoration: none;
+}
+
+#highLife .topText .highLifeImages .scrollBtn::after {
+  content: "";
+  width: 12px;
+  height: 147px;
+  top: 12rem;
+  position: absolute;
+  background-color: #f0d987;
+}
+
+#highLife .topText .highLifeImages img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=highLife.css.map */

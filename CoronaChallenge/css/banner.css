@@ -1,0 +1,175 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .banner {
+  background-image: radial-gradient(circle, rgba(2, 0, 36, 0.0144652) 12%, rgba(30, 32, 30, 0.671) 84%), url("../images/banner1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 5px center;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 4rem;
+}
+
+body .banner .location {
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: auto 0;
+  padding: 0;
+  position: relative;
+}
+
+body .banner .location a:hover img {
+  width: unset;
+  padding-right: unset;
+}
+
+body .banner .location img {
+  height: 18px;
+  -webkit-transition: unset;
+  transition: unset;
+}
+
+body .banner .location h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 10.7px;
+  letter-spacing: .1rem;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+body .banner .location ::after {
+  content: "";
+  width: 1px;
+  height: 100vh;
+  top: 0;
+  margin-top: -21.9rem;
+  bottom: 0;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.089);
+  left: 7rem;
+  position: absolute;
+}
+
+body .banner .welcomeText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 8rem 0 0rem;
+}
+
+body .banner .welcomeText .topText {
+  position: relative;
+}
+
+body .banner .welcomeText .topText h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
+  letter-spacing: -.2rem;
+  margin: 0;
+  padding: 0;
+  word-spacing: .2rem;
+  font-size: 3rem;
+}
+
+body .banner .welcomeText .topText h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9999rem;
+  margin: 0;
+  padding: 0;
+}
+
+body .banner .welcomeText .topText p {
+  position: relative;
+  font-size: .56rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-top: .56rem;
+}
+
+body .banner .welcomeText .topText p::before {
+  content: "";
+  width: 64px;
+  height: 1.3px;
+  margin-top: -.4rem;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.637);
+  position: absolute;
+}
+
+body .banner .welcomeText .topText::after {
+  content: "";
+  width: 1.3px;
+  height: 80vh;
+  top: 10px;
+  margin-top: -1.9rem;
+  bottom: 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.199);
+  left: 22.73rem;
+  position: absolute;
+}
+
+body .banner .welcomeText .middleText {
+  margin-bottom: -10rem;
+}
+
+body .banner .welcomeText .middleText h1 {
+  font-size: 6.3rem;
+  line-height: 6.3rem;
+}
+
+body .banner .welcomeText .scrollBtn {
+  position: relative;
+  margin: 0 auto;
+  padding: 4.5rem 0rem;
+  width: 170px;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: #df7f62;
+}
+
+body .banner .welcomeText .scrollBtn a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: .1rem;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+/*# sourceMappingURL=banner.css.map */
