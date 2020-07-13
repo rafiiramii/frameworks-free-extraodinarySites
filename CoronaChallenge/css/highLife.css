@@ -47,7 +47,7 @@
 }
 
 #highLife .topText .highLifeText h2 {
-  font-family: 'Caladea', serif;
+  font-family: "Caladea", serif;
   font-size: 3.5rem;
   font-weight: bolder;
   margin-top: -2rem;
@@ -59,7 +59,7 @@
   width: 160px;
   height: 35px;
   margin-top: 5.2rem;
-  margin-left: -.1rem;
+  margin-left: -0.1rem;
   display: inline-block;
   position: absolute;
   background-color: #df7f62;
@@ -70,11 +70,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14.8px;
   line-height: 1.8rem;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 #highLife .topText .highLifeImages {
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   margin-right: 11rem;
   grid-gap: 9px;
   width: 36.4%;
@@ -99,14 +99,14 @@
   color: rgba(44, 65, 44, 0.979);
   font-size: 3.5rem;
   font-weight: bolder;
-  margin-bottom: -.1rem;
+  margin-bottom: -0.1rem;
 }
 
 #highLife .topText .highLifeImages .scrollBtn a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 11px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: #2c412c;
   text-decoration: none;
 }
