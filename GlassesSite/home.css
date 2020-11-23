@@ -23,7 +23,7 @@
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    border: 6px solid rgba(92, 83, 83, 0.096);
+    border: 3px solid rgba(92, 83, 83, 0.096);
 }
 
 .firstCircle{
@@ -82,7 +82,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    opacity: .78;
+    opacity: .6;
 }
 .firstImage{
     background-color: white !important;

@@ -1,0 +1,54 @@
+
+*{
+    overflow: hidden;
+}
+
+
+
+.blocks{
+    
+    background-color: #ca5116;
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: -22; */
+
+}
+.leftBlock{
+    text-align: center;
+
+    background-color: #c5be98d8;
+    margin-top: -27rem;
+    margin-left: -3rem;
+    height: 117vh;
+    width: 75%;
+    border: none;
+    border-radius: 60px;
+    position: absolute;
+    transform: rotate(-50deg);
+    /* z-index: -10; */
+}
+.rightBlock{
+    z-index: 900000000000000000000;
+    background-color: #e0d2b9;
+    width: 70%;
+    height: 130vh;
+    margin-top: -12rem;
+    border: none;
+    border-radius: 50px;
+    transform: rotate(-50deg);
+    position: absolute;
+    right: -24rem;
+}
+img{
+    z-index: 9000000000000000000000000000000000;
+    transform: rotate(50deg);
+    width:auto;
+    height: 139vh;
+    margin-top: -22rem;
+    margin-left: -5rem;
+}
