@@ -80,16 +80,26 @@ body{
 
 .notificationIcons{
     display: flex;
-    /* padding: 0 3rem; */
-    width:600px;
+    width:400px;
     /* border: 2px solid red; */
     margin-left: 32%;
     margin-top: 1rem;
 }
 
+.notificationIcons::after{
+    content: "";
+    display: block;
+    background-color: #7a78a81e;
+    height: 11vh;
+    width: .4px;
+    position: absolute;
+    top: -.7rem;
+    right: 16rem;
+    /* left: 14rem; */
+}
 .notificationIcons svg{
     /* border: 2px solid red; */
-    margin-left: 1.2rem;
+    margin-left: 1.5rem;
     fill: #cac8eca9;
     border-radius: 10px;
     padding: .5rem;
@@ -100,6 +110,7 @@ body{
                  -2px -2px 6px 0 #3b609bf1;
 
 }
+
 
 .profile{
     /* border: 2px solid red; */
@@ -462,7 +473,7 @@ body{
     position: absolute;
     /* margin-bottom: -111px; */
     /* margin-top: 122%; */
-    bottom: 5rem;
+    bottom: 6.1rem;
 }
 
 
@@ -521,23 +532,11 @@ body{
 #smallText{
     font-size: .55rem;
 }
-.container{
-    align-items: center;
-    background-color: #48466d;
-    border-radius: 11px;
-    background: #494768;
-    box-shadow:  5px 5px 7px 0 #2f2d43, 
-                 -2px -2px 9px 0 #7a78a8;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    margin-right: 4rem;
-    width: 200px;
-    color: white;
-}
+/*  */
 
 .updateBtn{
-    color: #d3dff1;
+   opacity: .9;
+   color: white;
 
     font-weight: 800;
     margin-right: 1.3rem;
@@ -550,7 +549,166 @@ body{
     box-shadow:   5px 5px 7px 0  #0c1728, 
     -2px -2px 7px 0 #3b609b4b; 
     background-color: #189fda;
+    background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
+/* right corner */
+
+.rightCorner{
+    color: white;
+    position: absolute;
+    right: -9rem;
+    top: 2.43rem;
+    display: flex;
+    flex-direction: column;
+    width: 685px;
+    height: 85vh;
+    border-top-left-radius: 40px;
+    /* border-radius: 40px; */
+    /* background-color: red; */
+    box-shadow:  inset 5px 5px 7px 0  #0c1728, 
+    inset -2px -2px 6px 0 #3b609bf1; 
+    margin-right: 2rem;
+}
+
+.rightCorner div{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    /* height: 200px; */
+    width: 79%;
+    background-color: #152744;
+ 
+    box-shadow:  5px 5px 7px 0  #0c1728, 
+                 -2px -2px 6px 0 #3b609bf1; 
+}
+
+.rightCorner h6{
+    /* line-height: .1rem; */
+    width: fit-content;
+    /* border: 2px solid red; */
+    margin-left: 2rem;
+    font-weight: 300;
+    color: #91a2bd;
+    font-size: .9rem;
+}
+#listTitle{
+    margin-bottom: -1rem;
+}
+.visa{
+    height: 150px;
+    width: 76% !important;
+
+    padding-top: .1rem;
+    /* padding: 1rem; */
+    padding-left: 1rem;
+}
+.stars{
+    display: flex;
+    /* border: 2px solid red; */
+    /* height: fit-conten; */
+    /* margin: auto; */
+    /* height: 20px; */
+/* margin-left: -6rem; */
+    box-shadow: none !important;
+    background-color: unset !important;
+}
+.stars div{
+    margin-top: -.1rem;
+    display: flex;
+margin-left: -2rem;
+    box-shadow: none !important;
+    background-color: unset !important;
+}
+.stars h6{
+    margin-left: -.1rem;
+    margin-top: -.37rem;
+}
+.stars svg{
+    fill: #91a2bd;
+    width: 20px;
+    height: 10px;
+    box-shadow: none;
+    background-color: transparent;
+}
+.visa img{
+    /* border: 2px solid red; */
+    width: 45px;
+    height: 45px;
+}
+.visa h6{
+    font-size: 1rem;
+}
+.visa h5{
+    margin-left: .4rem;
+    margin-top: -1.5rem;
+    font-weight: 300;
+    color: #91a2bd;
+    font-size: .67rem;
+    letter-spacing: .013rem;
+}
+.peopleList {
+    margin-top: -6rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+
+}
+.peopleList div{
+    margin-right: 1.5rem;
+    width: fit-content;
+    background-color: none;
+    box-shadow: none;
+}
+.peopleList img{
+    opacity: .5;
+    border-radius: 6px;
+    padding: .3rem 0 0 .2rem;
+    background-color: #8fabd8;
+
+    box-shadow:  5px 5px 7px 0  #0c1728, 
+                 -2px -2px 9px 0 #3b609b;
+    width: 50px;
+    height: 50px;
+    /* margin-top: 1.2rem; */
+    /* margin-right: .8rem; */
+}
+.peopleList p{
+    /* text-align: center; */
+    font-weight: 300;
+    font-size: .5rem;
+}
+
+/* credit*/
+.credit{
+    height: 230px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.credit img{
+    transform: rotate(0deg);
+    width: 190px;
+    height: 160px;
+    filter: blur(6);
+    opacity: .28;
+}
+.credit h6{
+    /* border: 2px solid red; */
+    margin: auto;     
+}
+.credit p{
+    font-size: .48rem;
+    font-weight: 300;
+    color: #91a2bd;
+    letter-spacing: .013rem;
+}
+
 /* .one{
     box-shadow: 
       12px 12px 16px 0 rgba(0, 0, 0, 0.25),
